@@ -6,7 +6,7 @@ function publicPath(dir) {
 }
 
 function resolve(dir) {
-  return path.join(__dirname, '/resources/js', dir);
+  return path.join(__dirname, '/vendor/tuandm/laravue-core/resources/js', dir);
 }
 
 Mix.listen('configReady', webpackConfig => {
@@ -24,7 +24,8 @@ mix.webpackConfig({
     extensions: ['.js', '.vue', '.json'],
     alias: {
       vue$: 'vue/dist/vue.esm.js',
-      '@': path.join(__dirname, '/resources/js'),
+      '~': path.join(__dirname, '/resources/js'),
+      '@': path.join(__dirname, '/vendor/tuandm/laravue-core/resources/js'),
     },
   },
   module: {
@@ -58,7 +59,7 @@ mix
   .options({
     processCssUrls: false,
   })
-  .sass('resources/js/styles/index.scss', 'public/css/app.css')
+  .sass('vendor/tuandm/laravue-core/resources/js/styles/index.scss', 'public/css/laravue.css')
   .eslint();
 
 if (mix.inProduction()) {
