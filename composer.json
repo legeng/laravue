@@ -1,6 +1,6 @@
 {
     "name": "tuandm/laravue",
-    "description": "The beautiful dashboard for Laravue buiit by VueJS.",
+    "description": "The beautiful dashboard for Laravue built by VueJS.",
     "keywords": [
         "laravel",
         "laravue",
@@ -17,12 +17,6 @@
             "role": "Developer"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "/Volumes/Data/www/laravel/laravue/core"
-        }
-    ],
     "type": "project",
     "require": {
         "php": "^7.1.3",
@@ -30,7 +24,7 @@
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
         "tymon/jwt-auth": "^1.0",
-        "tuandm/laravue-core": "dev-master"
+        "tuandm/laravue-core": "0.2.*"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

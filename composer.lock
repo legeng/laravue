@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d09d45322628025c7cae796e9fcddb6f",
+    "content-hash": "1528a077c314eb9b383c61506ec4de5b",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2806,11 +2806,17 @@
         },
         {
             "name": "tuandm/laravue-core",
-            "version": "dev-master",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
-                "url": "/Volumes/Data/www/laravel/laravue/core",
-                "reference": "30d2ee4738254995f655e49dc72ff002aa606d79"
+                "url": "https://github.com/tuandm/laravue-core.git",
+                "reference": "11857a0f920ec9c658ed675a504a61e489d221c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tuandm/laravue-core/zipball/11857a0f920ec9c658ed675a504a61e489d221c3",
+                "reference": "11857a0f920ec9c658ed675a504a61e489d221c3",
+                "shasum": ""
             },
             "require": {
                 "tymon/jwt-auth": "^1.0"
@@ -2828,6 +2834,7 @@
                     "Tuandm\\Laravue\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2838,7 +2845,7 @@
                 }
             ],
             "description": "A Laravel package to provide a beatiful datashboard built by VueJS and Element-UI",
-            "time": "2019-03-10T09:12:34+00:00"
+            "time": "2019-03-10T13:52:57+00:00"
         },
         {
             "name": "tymon/jwt-auth",
@@ -4733,9 +4740,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "tuandm/laravue-core": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
